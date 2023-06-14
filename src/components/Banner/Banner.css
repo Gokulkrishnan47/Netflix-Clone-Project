@@ -1,0 +1,51 @@
+.header-container{
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset;
+}
+.banner{
+    color: #fff;
+}
+.banner-container2{
+    display: flex;
+}
+.banner-container2 button{
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+    border-radius: 5px;
+}
+.banner-bt1{
+    background-color: #fff;
+    width: 120px;
+    color: black;
+}
+.banner-bt2{
+    background-color:grey;
+    width: 150px;
+
+}
+.banner-title{
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 14%;
+    padding-left: 10px;
+}
+.banner-description {
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    max-width: 360px;
+    height: 80px;
+    padding-left: 10px;
+  }
+  .youtube{
+    position: relative;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  

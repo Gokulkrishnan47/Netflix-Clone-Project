@@ -1,0 +1,37 @@
+.Front-tab-container{
+    background-color: black;
+    height: auto;
+    color: #fff;
+    padding: 0 100px;
+    padding-bottom: 10vh;
+}
+.head-title{
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+}
+.f-tabl-li{
+background-color: rgb(59, 57, 57);
+margin: 10px;
+font-size: 24px;
+}
+.f-tabl-li:hover{
+    transition: 1s;
+    background-color: rgb(143, 143, 143);
+}
+.down-con{
+    background-color: rgb(59, 57, 57);
+    padding: 20px;
+    font-size: 24px;
+}
+.f-tabl-li:hover .down-con{
+    transform: translateY();
+}
+.f-tab-bt{
+    background-color:rgb(73, 73, 73);
+    border: 1px solid white;
+}
+.f-tab-inpt{
+    background-color: red;
+}

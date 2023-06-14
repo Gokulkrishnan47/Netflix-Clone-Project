@@ -1,0 +1,129 @@
+.Nav-img{
+    width: 90px;
+    height: 28px;
+    margin-left: 20px;
+}
+.nav-container{
+    position: fixed;
+    z-index: 1;
+    height: 10vh;
+    padding: 10px;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    width: 100%;
+    color: #fff;
+}
+.active{
+    font-weight: bold;
+}
+.navbar-inpt{
+    color: #fff;
+    background-color: rgb(27, 27, 27);
+}
+.nav-black{
+    background-color: #000;
+}
+.flex-divs{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.search-container{
+    height: 20vh;
+    width: 300px;
+    display: none;
+    position: absolute;
+    top: 35px;
+    right: 104px;
+}
+.ntf{
+    border: 1px solid grey;
+    height: 100%;
+    background-color:black;
+}
+.img-user:hover~.down-icon{
+    transform: rotatex(180deg);
+}
+.profile-container:hover .down-icon{
+    transform: rotatex(180deg);
+}
+.profile-container{
+    height: 50vh;
+    width: 210px;
+    display: none;
+    position: absolute;
+    top:43px;
+    right: 35px;
+}
+
+.p-parent{
+    position: relative;
+    align-items: flex-end;
+    justify-content: end;
+    flex-grow: 1;   
+}
+.notification:hover~.search-container{
+display: block;
+} 
+.search-container:hover{
+    display: block;
+}
+.img-user:hover~.profile-container{
+    display: block;
+} 
+.profile-container:hover{
+    display: block;
+}
+.searchmov-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 20px;
+}
+
+.searchmov-img {
+    width: 260px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.Search-con {
+    color: #fff;
+    background-color: black;
+}
+
+.mov-title {
+    display: none;
+}
+
+.one:hover .two {
+    display: block;
+    background-color: black;
+
+}
+
+.one:hover .two {
+    /* transform: scale(1); */
+    transition-delay: 1000ms;
+    transition-duration: 1000ms;
+}
+
+.one:hover {
+    transform: scale(1.3);
+    transition-delay: 200ms;
+    transition-duration: 1000ms;
+
+}
+
+.one {
+
+    background-color: rgb(15, 15, 15);
+}
+
+.two {
+    display: none;
+}
+@media screen and (max-width:1000px){
+    .nav-none{
+        display: none;
+    }
+}
